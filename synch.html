@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        /*setInterval(function(){
+      
+      document.write("hello")
+      
+        },3000)*/
+
+
+
+        /*
+        let a = 10
+        let b =20
+      
+        console.log("add",a+b)
+      
+        setTimeout(function(){
+          console.log("minus",a-b)
+        },2000)
+      
+        console.log("mul",a*b)*/
+
+     //promise function//
+
+
+    
+let condition = true
+
+        let prom = new Promise(function (resolve, reject) {
+            if (condition) {
+                resolve("successfully")
+            }
+            else {
+                reject("unsuccesfully")
+            }
+        })
+
+prom.then((item)=>{
+    console.log(item)
+}).catch((error)=>{
+    console.log(error)
+})
+
+         //fetch  function//
+
+
+
+
+    </script>
+</body>
+
+</html>
